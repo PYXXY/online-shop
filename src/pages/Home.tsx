@@ -1,8 +1,11 @@
+import NavBarLayout from "../layouts/NavBarLayout.tsx";
 
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div>
+            <NavBarLayout />
+        </div>
     )
 }
 
