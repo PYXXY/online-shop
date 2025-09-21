@@ -7,7 +7,13 @@ module.exports = withMT({
         './node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                'body-multicolor': 'linear-gradient(\n' +
+                    '                    to bottom, #DAF1DE, #8EB69B, #235347, #163832, #0B2B26, #051F20)'
+            },
+        },
+
     },
     plugins: [],
 });
