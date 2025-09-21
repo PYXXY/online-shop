@@ -1,9 +1,10 @@
 import NavBarLayout from "../layouts/NavBarLayout.tsx";
 
 
+
 const Home = () => {
     return (
-        <div>
+        <div className="flex flex-col">
             <NavBarLayout />
         </div>
     )
